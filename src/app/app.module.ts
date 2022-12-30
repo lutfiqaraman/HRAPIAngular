@@ -9,6 +9,7 @@ import { ShowDepartmentComponent } from './department/show-department/show-depar
 import { EmployeeComponent } from './employee/employee.component';
 import { AddEditEmployeeComponent } from './employee/add-edit-employee/add-edit-employee.component';
 import { ShowEmployeeComponent } from './employee/show-employee/show-employee.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ShowEmployeeComponent } from './employee/show-employee/show-employee.co
     ShowDepartmentComponent,
     EmployeeComponent,
     AddEditEmployeeComponent,
-    ShowEmployeeComponent
+    ShowEmployeeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
